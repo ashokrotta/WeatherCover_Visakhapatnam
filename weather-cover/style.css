@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: lavender;
+}
+
+.card {
+    background: linear-gradient(150deg, #ff99cc, #00ace6);
+    width: 17rem;
+    margin: 90px auto 0;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    
+    /* box-shadow: 5px 5px 20px 1px white ; */
+}
+
+.top {
+    display: flex;
+    margin: 1.3rem;
+    font-size: .9rem;
+}
+
+.weathericon {
+    position: relative;
+    right: 10px;
+}
+
+.bottom {
+    display: flex;
+    font-size: .7rem;
+}
+
+.humid img, .wind img{
+    width: 2rem;
+    margin: 10px;
+}
+
+.humid, .wind {
+    margin: 1rem;
+    display: flex;
+}
+
+.humid h3, .wind h3{
+    position: relative;
+    top: 19px;
+}
+
+.wind {
+    position: relative;
+    right: 1px;
+}
+
+.lable .disc{
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.lable .deg{
+    margin-bottom: .5rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.lable .feels-like{
+    font-weight: 600;
+    margin-bottom: .5rem;
+    font-size: 15px;
+}
